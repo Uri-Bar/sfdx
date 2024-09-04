@@ -5,5 +5,4 @@
     <required>false</required>
     <trackTrending>false</trackTrending>
     <trackHistory>true</trackHistory>
-    <trackFeedHistory>true</trackFeedHistory>
 </CustomField>

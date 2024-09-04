@@ -5,5 +5,4 @@
     <length>32000</length>
     <trackTrending>false</trackTrending>
     <trackHistory>true</trackHistory>
-    <trackFeedHistory>false</trackFeedHistory>
 </CustomField>
