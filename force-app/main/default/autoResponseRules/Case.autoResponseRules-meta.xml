@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AutoResponseRules xmlns="http://soap.sforce.com/2006/04/metadata">
+    <autoResponseRule>
+        <fullName>autotest</fullName>
+        <active>true</active>
+        <ruleEntry>
+            <criteriaItems>
+                <field>Case.ContactMobile</field>
+                <operation>equals</operation>
+                <value>1212156</value>
+            </criteriaItems>
+            <replyToEmail>uri.bar@salto.io</replyToEmail>
+            <senderEmail>uri.bar@salto.io</senderEmail>
+            <senderName>1</senderName>
+            <template>unfiled$public/MarketingProductInquiryResponse</template>
+        </ruleEntry>
+        <ruleEntry>
+            <criteriaItems>
+                <field>Contact.AccountName</field>
+                <operation>equals</operation>
+                <value>2</value>
+            </criteriaItems>
+            <replyToEmail>uri.bar@salto.io</replyToEmail>
+            <senderEmail>uri.bar@salto.io</senderEmail>
+            <senderName>u</senderName>
+            <template>unfiled$public/SalesNewCustomerEmail</template>
+        </ruleEntry>
+    </autoResponseRule>
+</AutoResponseRules>

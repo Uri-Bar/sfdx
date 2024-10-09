@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Queue xmlns="http://soap.sforce.com/2006/04/metadata">
+    <doesSendEmailToMembers>false</doesSendEmailToMembers>
+    <name>tesq</name>
+    <queueMembers>
+        <roles>
+            <role>CEO</role>
+            <role>CFO</role>
+        </roles>
+    </queueMembers>
+    <queueSobject>
+        <sobjectType>AuthorizationForm</sobjectType>
+    </queueSobject>
+</Queue>
