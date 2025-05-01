@@ -8,5 +8,4 @@
     <unique>false</unique>
     <caseSensitive>false</caseSensitive>
     <trackHistory>true</trackHistory>
-    <trackFeedHistory>false</trackFeedHistory>
 </CustomField>
