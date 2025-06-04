@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>X97__c</fullName>
+    <label>07</label>
+    <type>Checkbox</type>
+    <defaultValue>false</defaultValue>
+    <description>asd</description>
+    <trackFeedHistory>false</trackFeedHistory>
+</CustomField>
